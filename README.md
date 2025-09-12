@@ -13,11 +13,12 @@ Python example for ANTLR can be found [here](https://github.com/antlr/antlr4/blo
 TBD
 
 ## Usage
-1. Run antlr tool
+1. Enter folder `cd antlr4_calculator`
+2. Run antlr tool
 ``` bash
 antlr -Dlanguage=Python3 -visitor Expr.g4  
 ```
-2. Execute `Driver.py` script
+3. Execute `Driver.py` script
 ```bash 
 python3 Driver.py --file input.txt --worker visitor
 ```
