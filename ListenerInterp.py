@@ -25,6 +25,8 @@ class ListenerInterp(ExprListener):
                     self.result[ctx] = v1 * v2
                 elif opc == "/":
                     self.result[ctx] = v1 / v2
+                elif opc == "**":
+                    self.result[ctx] = v1**v2
                 else:
                     ctx.result[ctx] = 0
         elif ctx.getChildCount() == 2:

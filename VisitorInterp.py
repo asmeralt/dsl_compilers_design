@@ -24,6 +24,8 @@ class VisitorInterp(ExprVisitor):
                 return v1 * v2
             if op == "/":
                 return v1 / v2
+            if op == "**":
+                return v1**v2
             return 0
         if ctx.getChildCount() == 2:
             opc = ctx.getChild(0).getText()
