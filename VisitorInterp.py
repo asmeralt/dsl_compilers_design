@@ -1,10 +1,11 @@
-import sys
-from antlr4 import *
 from ExprParser import ExprParser
 from ExprVisitor import ExprVisitor
 
 
 class VisitorInterp(ExprVisitor):
+    def __init__(self):
+        pass
+
     def visitAtom(self, ctx: ExprParser.AtomContext):
         return int(ctx.getText())
 

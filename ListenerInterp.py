@@ -1,5 +1,3 @@
-import sys
-from antlr4 import *
 from ExprParser import ExprParser
 from ExprListener import ExprListener
 
