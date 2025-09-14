@@ -28,7 +28,7 @@ class ListenerInterp(ExprListener):
                 elif opc == "**":
                     self.result[ctx] = v1**v2
                 else:
-                    ctx.result[ctx] = 0
+                    self.result[ctx] = 0
         elif ctx.getChildCount() == 2:
             opc = ctx.getChild(0).getText()
             if opc == "+":
