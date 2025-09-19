@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Naive Substring",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "substrings/naive.py",
+            "console": "integratedTerminal"
+        },
+        {
             "name": "ANTLR: Calculator Example",
             "type": "debugpy",
             "request": "launch",
