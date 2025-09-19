@@ -37,6 +37,12 @@ def test_6():
     assert search(pat, txt) == [1, 2, 3, 4]
 
 
+def test_7():
+    pat = "ddN"
+    txt = "MabcdabdddN"
+    assert search(pat, txt) == [8]
+
+
 def test_search_pat_longer_than_txt():
     pat = "aaaa"
     txt = "aaa"

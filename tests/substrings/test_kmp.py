@@ -1,19 +1,19 @@
 from substrings.kmp import computeLPSArray, search
 
 
-def test_lsp_1():
+def test_lps_1():
     assert computeLPSArray("aabaaac") == [0, 1, 0, 1, 2, 2, 0]
 
 
-def test_lsp_2():
+def test_lps_2():
     assert computeLPSArray("abcdabca") == [0, 0, 0, 0, 1, 2, 3, 1]
 
 
-def test_lsp_3():
+def test_lps_3():
     assert computeLPSArray("abcdabcdabcd") == [0, 0, 0, 0, 1, 2, 3, 4, 5, 6, 7, 8]
 
 
-def test_lsp_4():
+def test_lps_4():
     assert computeLPSArray("abcdabcdabcdk") == [0, 0, 0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 0]
 
 
@@ -51,6 +51,12 @@ def test_search_6():
     pat = "aa"
     txt = "MaaaaaN"
     assert search(pat, txt) == [1, 2, 3, 4]
+
+
+def test_search_7():
+    pat = "ddN"
+    txt = "MabcdabdddN"
+    assert search(pat, txt) == [8]
 
 
 def test_search_pat_longer_than_txt():
