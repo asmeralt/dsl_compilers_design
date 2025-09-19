@@ -12,6 +12,13 @@
             "console": "integratedTerminal"
         },
         {
+            "name": "KMP Substring",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "substrings/kmp.py",
+            "console": "integratedTerminal"
+        },
+        {
             "name": "ANTLR: Calculator Example",
             "type": "debugpy",
             "request": "launch",
