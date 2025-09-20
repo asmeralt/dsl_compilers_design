@@ -31,7 +31,10 @@ Python example for ANTLR can be found [here](https://github.com/antlr/antlr4/blo
 3. In __VS Code__ open any file with _.py_ extention and in bottom right corner select correct python interpreter installed on previous step
 4. Run file with __Run__ button in right top corner
 5. If needed specify default Terminal application by pressing __F1__, typing _Terminal: Select Default Profile_ and choosing _Command Prompt_ (cmd.exe)
-6. Install Java for Windows and add java executables and __ANTLR4__ [jar](https://www.antlr.org/download/antlr-4.13.2-complete.jar) in _PATH_ variable
+6. Install __ANTLR4__
+    1. Install __ANTLR4__ with `pip install antlr4-tools`
+    2. (Alternatively) Get Java for Windows and add java executables & __ANTLR4__ [jar](https://www.antlr.org/download/antlr-4.13.2-complete.jar) in _PATH_ variable
+    
 
 ## Usage
 
