@@ -19,6 +19,7 @@ Python example for ANTLR can be found [here](https://github.com/antlr/antlr4/blo
         3. Enter new password and confirm it. Note: in Unix like systems passwords typed in terminal are not visible
 2. Install [__VS Code__](https://code.visualstudio.com/) and recommended for this project extentions
     1. Install [__WSL__](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) extention for __VS Code__
+    2. In bottom left corner select _Open a Remote Window_ button and restart __VS Code__ in __WSL__ mode
 3. Run __Ubuntu__ terminal from start menu or in VS Code
 4. Update system packages `sudo apt update && sudo apt upgrade -y`
 5. Install __python3__ `sudo apt install python3 python3-pip python3-venv`
