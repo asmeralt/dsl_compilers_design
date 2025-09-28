@@ -19,6 +19,13 @@
             "console": "integratedTerminal"
         },
         {
+            "name": "Aho-Corasick Substring",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "substrings/aho_corasick.py",
+            "console": "integratedTerminal"
+        },
+        {
             "name": "ANTLR: Calculator Example",
             "type": "debugpy",
             "request": "launch",
