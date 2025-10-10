@@ -26,6 +26,13 @@
             "console": "integratedTerminal"
         },
         {
+            "name": "Regex main",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "regex/main.py",
+            "console": "integratedTerminal"
+        },
+        {
             "name": "ANTLR: Calculator Example",
             "type": "debugpy",
             "request": "launch",
