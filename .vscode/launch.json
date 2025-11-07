@@ -33,6 +33,13 @@
             "console": "integratedTerminal"
         },
         {
+            "name": "AST main",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "ast_operations/main.py",
+            "console": "integratedTerminal"
+        },
+        {
             "name": "ANTLR: Calculator Example",
             "type": "debugpy",
             "request": "launch",
